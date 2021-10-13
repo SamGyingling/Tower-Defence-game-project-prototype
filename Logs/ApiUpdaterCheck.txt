@@ -28,3 +28,33 @@ C# parse time         : 402ms
 candidates check time : 63ms
 console write time    : 0ms
 
+[api-updater (non-obsolete-error-filter)] 2021/10/13 16:44:05 : Starting /Users/dengzexi/Desktop/unity3d/2020.3.16f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 242.717ms
+moved types parse time: 87ms
+candidates parse time : 3ms
+C# parse time         : 434ms
+candidates check time : 61ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 2021/10/13 16:45:07 : Starting /Users/dengzexi/Desktop/unity3d/2020.3.16f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 219.118ms
+moved types parse time: 84ms
+candidates parse time : 2ms
+C# parse time         : 398ms
+candidates check time : 58ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 2021/10/13 16:47:14 : Starting /Users/dengzexi/Desktop/unity3d/2020.3.16f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 333.577ms
+moved types parse time: 185ms
+candidates parse time : 75ms
+C# parse time         : 383ms
+candidates check time : 81ms
+console write time    : 2ms
+

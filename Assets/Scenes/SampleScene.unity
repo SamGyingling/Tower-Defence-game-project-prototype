@@ -1652,6 +1652,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1557204074}
   - component: {fileID: 1557204073}
+  - component: {fileID: 1557204075}
   m_Layer: 0
   m_Name: Grid Manager
   m_TagString: Untagged
@@ -1686,6 +1687,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1557204075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557204072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef189c2a7533844768263c6d92daf678, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentSearchNode:
+    coordinates: {x: 1, y: 1}
+    isWalkable: 0
+    isExplored: 0
+    isPath: 0
 --- !u!4 &1567406880 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5191541638542436416, guid: 54f85768146974e6e9ae2cdf41eb8105, type: 3}
