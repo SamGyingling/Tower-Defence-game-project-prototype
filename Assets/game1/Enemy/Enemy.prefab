@@ -128,18 +128,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 471904af1c3524eb3835c6fcce4a2f8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  path:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   speed: 1
 --- !u!65 &6513063304058032022
 BoxCollider:
@@ -166,7 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088001d0ed74d45fcbb1b0700f1c460f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 5
+  maxHealth: 50
   currentHealth: 0
 --- !u!114 &6917620219747436090
 MonoBehaviour:

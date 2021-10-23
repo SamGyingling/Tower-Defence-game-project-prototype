@@ -6,8 +6,8 @@ public class ObjectPool : MonoBehaviour
 {
     [SerializeField] GameObject[] objectPool;
     [SerializeField] GameObject enemy;
-    [SerializeField]int poolsize=5;
-    [SerializeField] float waitTime;
+    [SerializeField][Range(0, 50)]int poolsize=5;
+    [SerializeField][Range(0.1f,30f)]float spawnTimer=3;
 
     void Awake()
     {
@@ -39,7 +39,12 @@ public class ObjectPool : MonoBehaviour
         while (true)
         {
             EnableObjectsInPool();
-            yield return new WaitForSeconds(waitTime);
+            yield return new WaitForSeconds(spawnTimer);
         }
+    }
+    public void notifyReceivers()
+    {
+        BroadcastMessage("RecalculatePath", false, SendMessageOptions.RequireReceiver);
+
     }
 }

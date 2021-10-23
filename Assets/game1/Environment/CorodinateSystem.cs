@@ -4,41 +4,42 @@ using UnityEngine;
 using TMPro;
 
 [ExecuteAlways]
+[RequireComponent(typeof(TextMeshPro))]
 public class CorodinateSystem : MonoBehaviour
 {
     TextMeshPro label;
+
     Vector2Int coordinate = new Vector2Int();
    
-    Color defaultColor = Color.white;
+    Color defaultColor = Color.black;
     Color offColor = Color.gray;
     Color exploredColor = Color.yellow;
     Color pathColor = Color.blue;
 
-    GridManager gridManager;  
-
+    GridManager gridManager;
+    Tile tile;
 
     // Start is called before the first frame update
     void Awake()
     {
         label = GetComponent<TextMeshPro>();
         gridManager = FindObjectOfType<GridManager>();
+        tile = GetComponentInParent<Tile>();
+
         label.enabled=true;
-        FindObjectOfType<GridManager>();
         DisplayCoordinate();
-       
-       
+        SetLabelColor();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Application.isPlaying)
+        if (!Application.isPlaying)
         {
             DisplayCoordinate();
         }
         SetLabelColor();
         ToggleFloorname();
-
     }
 
     private void ToggleFloorname()
@@ -58,16 +59,15 @@ public class CorodinateSystem : MonoBehaviour
         if(node == null)
         {
             return;
-        }
-        if (!node.isWalkable)
+        }else if (!node.isWalkable|| !tile.IsPlaceable)
         {
             label.color = offColor;
         }
         else if(node.isPath)
         {
             label.color = pathColor;
-
-        }else if (node.isExplored)
+        }
+        else if (node.isExplored)
         {
             label.color = exploredColor;
         }
@@ -75,15 +75,13 @@ public class CorodinateSystem : MonoBehaviour
         {
             label.color = defaultColor;
         }
-
-
     }
 
     void DisplayCoordinate()
     {
-       
-        coordinate.x = Mathf.RoundToInt(transform.parent.position.x/UnityEditor.EditorSnapSettings.move.x);
-        coordinate.y = Mathf.RoundToInt(transform.parent.position.z/UnityEditor.EditorSnapSettings.move.z);
+        if (gridManager == null) { return; }
+        coordinate.x = Mathf.RoundToInt(transform.parent.position.x/gridManager.UnityGridSize);
+        coordinate.y = Mathf.RoundToInt(transform.parent.position.z/gridManager.UnityGridSize);
        
         label.text = coordinate.ToString();
         //display name in hierarchy as well

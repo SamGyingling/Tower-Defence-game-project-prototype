@@ -12,6 +12,8 @@ public class TargetFinder : MonoBehaviour
     void Start()
     {
         target = FindObjectOfType<EnemyMover>().transform;
+       
+       // InvokeRepeating("AimEnemy", 0, 0.3f);
     }
 
     // Update is called once per frame
@@ -23,23 +25,22 @@ public class TargetFinder : MonoBehaviour
     void FindClothestEnemy()
     {
         Enemy[] enemys = FindObjectsOfType<Enemy>();
-        float maxDistance = Mathf.Infinity;
-        Transform clothestTarget = null;
+        float minDistance = Mathf.Infinity;
+        Transform clothestEnemy = null;
         foreach (Enemy enemy in enemys)
         {
             float dis = Vector3.Distance(enemy.transform.position, transform.position);
-            if (dis < maxDistance)
+            if (dis < minDistance)
             {
-                clothestTarget = enemy.transform;
-                maxDistance = dis;
+                clothestEnemy = enemy.transform;
+                minDistance = dis;
             }
         }
-        target = clothestTarget;
+        target = clothestEnemy;
     }
     void AimEnemy()
     {
         float dis = Vector3.Distance(target.transform.position, transform.position);
-
         weapon.LookAt(target);
         if (dis< weaponRang)
         {
