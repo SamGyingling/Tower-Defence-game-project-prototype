@@ -188,3 +188,203 @@ C# parse time         : 549ms
 candidates check time : 56ms
 console write time    : 0ms
 
+[api-updater (non-obsolete-error-filter)] 11/11/2021 7:08:09 PM : Starting /Users/samdeng/Documents/Unity/2020.3.16f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 197.787ms
+moved types parse time: 145ms
+candidates parse time : 6ms
+C# parse time         : 557ms
+candidates check time : 118ms
+console write time    : 2ms
+
+[api-updater (non-obsolete-error-filter)] 11/11/2021 7:21:43 PM : Starting /Users/samdeng/Documents/Unity/2020.3.16f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 198.22ms
+moved types parse time: 140ms
+candidates parse time : 6ms
+C# parse time         : 468ms
+candidates check time : 111ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 11/11/2021 7:21:46 PM : Starting /Users/samdeng/Documents/Unity/2020.3.16f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 153.783ms
+moved types parse time: 156ms
+candidates parse time : 6ms
+C# parse time         : 457ms
+candidates check time : 109ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 11/11/2021 7:22:15 PM : Starting /Users/samdeng/Documents/Unity/2020.3.16f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 162.799ms
+moved types parse time: 183ms
+candidates parse time : 6ms
+C# parse time         : 491ms
+candidates check time : 115ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 12/11/2021 1:02:35 PM : Starting /Users/samdeng/Documents/Unity/2020.3.16f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 194.936ms
+moved types parse time: 134ms
+candidates parse time : 5ms
+C# parse time         : 509ms
+candidates check time : 106ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 14/11/2021 5:20:18 PM : Starting /Users/samdeng/Documents/Unity/2020.3.16f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 162.822ms
+moved types parse time: 166ms
+candidates parse time : 5ms
+C# parse time         : 412ms
+candidates check time : 83ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 14/11/2021 5:28:26 PM : Starting /Users/samdeng/Documents/Unity/2020.3.16f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 153.245ms
+moved types parse time: 160ms
+candidates parse time : 6ms
+C# parse time         : 438ms
+candidates check time : 104ms
+console write time    : 2ms
+
+[api-updater (non-obsolete-error-filter)] 15/11/2021 1:19:38 AM : Starting /Users/samdeng/Documents/Unity/2020.3.16f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 253.645ms
+moved types parse time: 140ms
+candidates parse time : 6ms
+C# parse time         : 510ms
+candidates check time : 113ms
+console write time    : 2ms
+
+[api-updater (non-obsolete-error-filter)] 15/11/2021 1:23:05 PM : Starting /Users/samdeng/Documents/Unity/2020.3.16f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 189.696ms
+moved types parse time: 185ms
+candidates parse time : 5ms
+C# parse time         : 558ms
+candidates check time : 108ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 16/11/2021 1:11:46 PM : Starting /Users/samdeng/Documents/Unity/2020.3.16f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 171.746ms
+moved types parse time: 168ms
+candidates parse time : 6ms
+C# parse time         : 560ms
+candidates check time : 117ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 16/11/2021 1:29:01 PM : Starting /Users/samdeng/Documents/Unity/2020.3.16f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 177.598ms
+moved types parse time: 174ms
+candidates parse time : 6ms
+C# parse time         : 531ms
+candidates check time : 120ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 16/11/2021 4:21:47 PM : Starting /Users/samdeng/Documents/Unity/2020.3.16f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 241.399ms
+moved types parse time: 158ms
+candidates parse time : 6ms
+C# parse time         : 448ms
+candidates check time : 95ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 17/11/2021 12:32:14 AM : Starting /Users/samdeng/Documents/Unity/2020.3.16f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 318.82ms
+moved types parse time: 168ms
+candidates parse time : 10ms
+C# parse time         : 735ms
+candidates check time : 104ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 17/11/2021 12:34:16 AM : Starting /Users/samdeng/Documents/Unity/2020.3.16f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 164.662ms
+moved types parse time: 189ms
+candidates parse time : 5ms
+C# parse time         : 428ms
+candidates check time : 81ms
+console write time    : 2ms
+
+[api-updater (non-obsolete-error-filter)] 18/11/2021 1:35:35 AM : Starting /Users/samdeng/Documents/Unity/2020.3.16f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 284.552ms
+moved types parse time: 141ms
+candidates parse time : 14ms
+C# parse time         : 498ms
+candidates check time : 159ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 18/11/2021 1:36:48 AM : Starting /Users/samdeng/Documents/Unity/2020.3.16f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 190.248ms
+moved types parse time: 144ms
+candidates parse time : 6ms
+C# parse time         : 479ms
+candidates check time : 94ms
+console write time    : 3ms
+
+[api-updater (non-obsolete-error-filter)] 18/11/2021 1:37:37 AM : Starting /Users/samdeng/Documents/Unity/2020.3.16f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 202.287ms
+moved types parse time: 204ms
+candidates parse time : 5ms
+C# parse time         : 512ms
+candidates check time : 102ms
+console write time    : 5ms
+
+[api-updater (non-obsolete-error-filter)] 19/11/2021 4:33:54 PM : Starting /Users/samdeng/Documents/Unity/2020.3.16f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 183.01ms
+moved types parse time: 141ms
+candidates parse time : 6ms
+C# parse time         : 424ms
+candidates check time : 99ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 19/11/2021 4:33:57 PM : Starting /Users/samdeng/Documents/Unity/2020.3.16f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 100.067ms
+moved types parse time: 141ms
+candidates parse time : 7ms
+C# parse time         : 370ms
+candidates check time : 89ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 20/11/2021 5:28:20 PM : Starting /Users/samdeng/Documents/Unity/2020.3.16f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 180.551ms
+moved types parse time: 161ms
+candidates parse time : 5ms
+C# parse time         : 485ms
+candidates check time : 94ms
+console write time    : 2ms
+
